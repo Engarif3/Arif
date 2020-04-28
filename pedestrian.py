@@ -6,7 +6,7 @@ cap = cv2.VideoCapture(video_src)
 
 fcount = 0
 
-cascade = cv2.CascadeClassifier('last0.xml')
+cascade = cv2.CascadeClassifier('cascade.xml')
 
 while True:
     
