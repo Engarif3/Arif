@@ -1,5 +1,4 @@
 import cv2
-import time
 
 video_src = 'pedestrians.avi'
 cap = cv2.VideoCapture(video_src)
