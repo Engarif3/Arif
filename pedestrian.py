@@ -12,7 +12,7 @@ while True:
     
         ret, img = cap.read()
         
-		if (type(img) == type(None)):
+	if (type(img) == type(None)):
             break
 
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
